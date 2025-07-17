@@ -30,7 +30,7 @@
         [
             "rio-nightly.exe",
             "Rio Nightly",
-            "",
+            "--working-dir %USERPROFILE%",
             "rio.ico"
         ]
     ],
