@@ -1,5 +1,5 @@
 {
-    "version": "2025-07-18",
+    "version": "2025-07-20",
     "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers",
     "homepage": "https://github.com/raphamorim/rio",
     "license": "MIT",
@@ -10,7 +10,7 @@
                 "https://github.com/raphamorim/rio/raw/refs/tags/nightly/misc/windows/rio.ico"
             ],
             "hash": [
-                "9f29d9b778a94d07ab7679908b3602e8965f7a66a2d850ee4b91dc61e77651de",
+                "0525f4776eea4bf35f2350576e8968709e4c8b6218df980171d3a2450498edc9",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         },
@@ -20,7 +20,7 @@
                 "https://github.com/raphamorim/rio/raw/refs/tags/nightly/misc/windows/rio.ico"
             ],
             "hash": [
-                "4fef6e84e2b56431903d1cd0dc929a195be61ee988a319a98c6a78fe58ef22ea",
+                "9d08a468f664b76e28ce8471618440c406e156c0b48bbb67fc405fc715ad6788",
                 "df14ea18ec6cf01cc7709d4de0e14cfa0366b54fbbbee5e936be16db28b929cb"
             ]
         }
