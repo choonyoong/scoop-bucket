@@ -1,24 +1,16 @@
 {
-    "version": "2025-08-03",
+    "version": "2025-08-04",
     "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers",
     "homepage": "https://github.com/raphamorim/rio",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": [
-                "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe#/rio-nightly.exe",
-            ],
-            "hash": [
-                "322dc53bf56162c16bda95d3bf607514d27fb372fc07b4043e46c00c5901a1df",
-            ]
+            "url": "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe#/rio-nightly.exe",
+            "hash": "171433646f17ae3f56197516a609d30f01806893164ae9ac0543ad667158a3d3"
         },
         "arm64": {
-            "url": [
-                "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe#/rio-nightly.exe",
-            ],
-            "hash": [
-                "bd58a1a64aa3b6b6cf556e0a7ea9d9c6042599e72bf08e48893a15cddace0721",
-            ]
+            "url": "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe#/rio-nightly.exe",
+            "hash": "cdbf85cc65b0d9bfe9a36d905a4db5473acf8164afa557c8445e2f3179e22ac7"
         }
     },
     "bin": "rio-nightly.exe",
@@ -36,14 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": [
-                    "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe#/rio-nightly.exe",
-                ]
+                "url": "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-x86_64.exe#/rio-nightly.exe"
             },
             "arm64": {
-                "url": [
-                    "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe#/rio-nightly.exe",
-                ]
+                "url": "https://github.com/raphamorim/rio/releases/download/nightly/rio-portable-aarch64.exe#/rio-nightly.exe"
             }
         }
     }
