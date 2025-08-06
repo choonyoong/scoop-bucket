@@ -1,0 +1,15 @@
+{
+    "version": "nightly",
+    "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "homepage": "https://zed.dev/",
+    "license": "AGPL-3.0, Apache-2.0, GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://zed.dev/api/releases/nightly/latest/zed_editor_installer_x86_64.exe"
+        }
+    },
+    "innosetup": true,
+    "extract_dir": "{code_GetInstallDir}",
+    "bin": [["bin/zed.exe", "zed-nightly"]],
+    "shortcuts": [["Zed.exe", "Zed Nightly"]]
+}
