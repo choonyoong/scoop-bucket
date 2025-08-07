@@ -10,6 +10,6 @@
     },
     "innosetup": true,
     "extract_dir": "{code_GetInstallDir}",
-    "bin": [["bin/zed.exe", "zed-nightly"]],
+    "bin": [["bin/zed.exe", "zed"]],
     "shortcuts": [["Zed.exe", "Zed Nightly"]]
 }
