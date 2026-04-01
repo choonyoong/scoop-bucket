@@ -6,18 +6,8 @@
     "url": "https://github.com/yaakapp/app/releases/download/v2026.3.1/Yaak_2026.3.1_x64-setup.exe/#dl.7z",
     "hash": "8549ba10e43ec9abde7d3c775bafd8f3bc53298c5c2329fd3887d2ab4b14592f",
     "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-    "bin": [
-        [
-            "yaak-app.exe",
-            "yaak"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "yaak-app.exe",
-            "Yaak"
-        ]
-    ],
+    "bin": [["yaak-app.exe", "yaak"]],
+    "shortcuts": [["yaak-app.exe", "Yaak"]],
     "checkver": {
         "github": "https://github.com/yaakapp/app"
     },

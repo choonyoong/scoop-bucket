@@ -13,12 +13,7 @@
             "hash": "80109e275fb484ccad7f5be7a6f6153f7253fec1299fcf131dc1afa7fa777f38"
         }
     },
-    "bin": [
-        [
-            "jjui-0.10.2-windows-amd64.exe",
-            "jjui"
-        ]
-    ],
+    "bin": [["jjui-0.10.2-windows-amd64.exe", "jjui"]],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -29,11 +24,6 @@
                 "url": "https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-arm64.zip"
             }
         },
-        "bin": [
-            [
-                "jjui-$version-windows-amd64.exe",
-                "jjui"
-            ]
-        ]
+        "bin": [["jjui-$version-windows-amd64.exe", "jjui"]]
     }
 }
