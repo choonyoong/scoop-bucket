@@ -9,6 +9,7 @@
             "hash": "721925cb60e1cbeb0dca74f1baf5d7a14236ebb347f16073515f0bc37c519a10"
         }
     },
+    "extract_dir": "mcat-x86_64-pc-windows-msvc",
     "bin": "mcat.exe",
     "checkver": "github",
     "autoupdate": {
