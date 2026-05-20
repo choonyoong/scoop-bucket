@@ -26,13 +26,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxfmt-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-i686-pc-windows-msvc.zip"
+                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxfmt-i686-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxfmt-aarch64-pc-windows-msvc.zip"
             }
         }
     }
