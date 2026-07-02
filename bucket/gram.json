@@ -19,7 +19,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/GramEditor/gram"
+        "url": "https://codeberg.org/api/v1/repos/GramEditor/gram/releases/latest",
+        "jsonpath": "$.tag_name"
     },
     "autoupdate": {
         "url": "https://codeberg.org/GramEditor/gram/releases/download/$version/Gram-x86_64.exe"
