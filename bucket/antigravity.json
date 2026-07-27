@@ -1,5 +1,5 @@
 {
-    "version": "2.3.1",
+    "version": "2.4.2",
     "description": "Agent orchestration platform developed by Google.",
     "homepage": "https://antigravity.google/product/antigravity-2",
     "license": {
@@ -21,12 +21,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.3.1-5358163105546240/windows-x64/Antigravity-x64.exe#/dl.7z",
-            "hash": "100d785a83778268fb522f67dce4449966db8ce6579d51e23442bd18d5ef896f"
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.4.2-6711062033203200/windows-x64/Antigravity-x64.exe#/dl.7z",
+            "hash": "3881a1fa4acb398ed953b5eeecc3e08a66b1085152cc9b1077b60f04fde516ad"
         },
         "arm64": {
-            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.3.1-5358163105546240/windows-arm/Antigravity-arm64.exe#/dl.7z",
-            "hash": "B233DB67B2DB18B363E4E1815C424774CD8C97A03D5968B3B2B42BECF5092ED4"
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.4.2-6711062033203200/windows-arm/Antigravity-arm64.exe#/dl.7z",
+            "hash": "a1d1f3ddb4cbe836f848e2486b2c55bf9657b6016bf10329539e1cdc3770490d"
         }
     },
     "installer": {
@@ -43,7 +43,12 @@
         "}",
         "Set-Content $yaml -Value $content -Encoding ascii"
     ],
-    "shortcuts": [["Antigravity.exe", "Antigravity"]],
+    "shortcuts": [
+        [
+            "Antigravity.exe",
+            "Antigravity"
+        ]
+    ],
     "checkver": {
         "url": "https://antigravity-hub-auto-updater-974169037036.us-central1.run.app/releases",
         "script": [
