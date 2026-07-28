@@ -23,6 +23,6 @@
         "jsonpath": "$.tag_name"
     },
     "autoupdate": {
-        "url": "https://codeberg.org/GramEditor/gram/releases/download/$version/Gram-x86_64.exe"
+        "url": "https://codeberg.org/GramEditor/gram/releases/download/$version/Gram-windows-x86_64-$version.exe"
     }
 }
