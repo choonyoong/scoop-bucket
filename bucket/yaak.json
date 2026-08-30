@@ -1,16 +1,16 @@
 {
-    "version": "2026.6.0",
+    "version": "2026.7.0",
     "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC",
     "homepage": "https://yaak.app",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yaakapp/app/releases/download/v2026.6.0/Yaak_2026.6.0_x64-setup.exe/#dl.7z",
-            "hash": "8ae03db3915f8da8b1030812f4d2b5233b0b4deb3c28482dcd7a8fe73a3b0bd7"
+            "url": "https://github.com/yaakapp/app/releases/download/v2026.7.0/Yaak_2026.7.0_x64-setup.exe/#dl.7z",
+            "hash": "8cd4c0c5c170bb42ceebfd33966607dd7ac1e1d79a8725e9647518c63aea64fb"
         },
         "arm64": {
-            "url": "https://github.com/yaakapp/app/releases/download/v2026.6.0/Yaak_2026.6.0_arm64-setup.exe/#dl.7z",
-            "hash": "7a069b21ecca1d624061d36f4ab08b22ee8e466c985af4ba61d1305c86d75aee"
+            "url": "https://github.com/yaakapp/app/releases/download/v2026.7.0/Yaak_2026.7.0_arm64-setup.exe/#dl.7z",
+            "hash": "004c8639ddcbec04a0ecc01f8e3dbab53a6fbfd8c69c9b4ea4bae07bc385f5f4"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
