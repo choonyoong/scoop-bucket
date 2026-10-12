@@ -1,10 +1,10 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "Mermaid.js, but headless, in Rust.",
     "homepage": "https://github.com/Latias94/merman",
     "license": "APACHE-2.0 MIT",
-    "url": "https://github.com/Latias94/merman/releases/download/v0.8.0/merman-cli-x86_64-pc-windows-msvc.zip",
-    "hash": "55ed5d0edc5e2c5f543e7722493416ba850b38cf0072b6637184b0aa38daace6",
+    "url": "https://github.com/Latias94/merman/releases/download/v0.9.0/merman-cli-x86_64-pc-windows-msvc.zip",
+    "hash": "c56f2b3b286ff11375840fcf0adfa5d3a74d768a34d05e17a1cf423007ca3431",
     "bin": "merman-cli.exe",
     "checkver": {
         "github": "https://github.com/Latias94/merman"
