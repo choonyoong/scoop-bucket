@@ -1,5 +1,5 @@
 {
-    "version": "2.31.1",
+    "version": "2.31.2",
     "description": "Agent orchestration platform developed by Google.",
     "homepage": "https://antigravity.google/product/antigravity-2",
     "license": {
@@ -21,12 +21,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.31.1-6044591015723008/windows-x64/Antigravity-x64.exe#/dl.7z",
-            "hash": "b7c463ac509e3be3eb9295c625b58508035a23dd1d8db29ba1a4993db935ef3d"
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.31.2-6470801290035200/windows-x64/Antigravity-x64.exe#/dl.7z",
+            "hash": "c8c5112e2e6fec74220a7ff016bd19bb3fa6e08d44438dcb14b5ecc23ffa2ba0"
         },
         "arm64": {
-            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.31.1-6044591015723008/windows-arm/Antigravity-arm64.exe#/dl.7z",
-            "hash": "66aef3f0a83e7bc25cb43c9d829cc1a7820be0a62998bcabada63c8b5f2f6b13"
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-hub/2.31.2-6470801290035200/windows-arm/Antigravity-arm64.exe#/dl.7z",
+            "hash": "1d140a44fc2abcd10208bcaad3e1bb66333707f4735134880f755086822e03b4"
         }
     },
     "installer": {
